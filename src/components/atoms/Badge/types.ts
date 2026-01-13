@@ -1,7 +1,7 @@
 import { type VariantProps } from "class-variance-authority";
 import { badgeVariants } from "./variants";
 
-export type BadgeBaseProps = React.ComponentProps<"span">;
+export type BadgeBaseProps = React.ComponentPropsWithoutRef<"span">;
 
 export type BadgeVariantProps = VariantProps<typeof badgeVariants>;
 
