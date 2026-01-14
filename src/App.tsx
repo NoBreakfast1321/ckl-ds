@@ -1,5 +1,5 @@
-import { Badge } from "./components/ds/Badge";
-import { Button } from "./components/ds/Button";
+import { Badge } from "./components/ui/Badge";
+import { Button } from "./components/ui/Button";
 
 export const App = () => {
   return (
