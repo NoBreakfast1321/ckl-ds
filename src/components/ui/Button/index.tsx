@@ -1,7 +1,7 @@
 import { Slot } from "@radix-ui/react-slot";
 import { cn } from "@/lib/utils";
-import { buttonVariants } from "./variants";
 import { type ButtonProps } from "./types";
+import { buttonVariants } from "./variants";
 
 export const Button = ({
   asChild = false,

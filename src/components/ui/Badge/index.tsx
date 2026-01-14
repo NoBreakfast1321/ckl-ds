@@ -1,7 +1,7 @@
 import { Slot } from "@radix-ui/react-slot";
 import { cn } from "@/lib/utils";
-import { badgeVariants } from "./variants";
 import { type BadgeProps } from "./types";
+import { badgeVariants } from "./variants";
 
 export const Badge = ({
   asChild = false,

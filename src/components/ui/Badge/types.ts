@@ -1,6 +1,6 @@
 import { type VariantProps } from "class-variance-authority";
+import { type LucideIcon } from "lucide-react";
 import { badgeVariants } from "./variants";
-import type { LucideIcon } from "lucide-react";
 
 export type BadgeBaseProps = React.ComponentPropsWithoutRef<"span">;
 
